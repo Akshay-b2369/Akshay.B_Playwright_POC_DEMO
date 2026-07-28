@@ -1,0 +1,26 @@
+{
+  "name": "saucedemo-playwright-poc",
+  "version": "1.0.0",
+  "description": "SauceDemo end-to-end purchase flow automation using Playwright (JavaScript) and the Page Object Model.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "pom",
+    "saucedemo",
+    "e2e"
+  ],
+  "author": "Akshay B",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.0"
+  }
+}
