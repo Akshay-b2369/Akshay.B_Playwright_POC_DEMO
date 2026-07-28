@@ -11,7 +11,7 @@ Checkout Complete.
 
 ## Project Structure
 
-```
+
 Project
 │
 ├── tests
@@ -31,32 +31,7 @@ Project
 ├── playwright.config.js
 ├── package.json
 └── README.md
-```
 
-## Setup
-
-```bash
-npm install
-npx playwright install
-```
-
-## Running Tests
-
-```bash
-# Run all tests (all browsers, headless)
-npm test
-
-# Run in headed mode (see the browser)
-npm run test:headed
-
-# Run against a single browser
-npm run test:chromium
-npm run test:firefox
-npm run test:webkit
-
-# View the HTML report after a run
-npm run report
-```
 
 ## Test Credentials
 
